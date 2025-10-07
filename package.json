@@ -1,0 +1,21 @@
+{
+  "name": "favicon-proxy",
+  "version": "1.0.0",
+  "description": "High-quality favicon fetcher with fallback logic and secure access",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["favicon", "proxy", "express", "node", "svg", "fallback"],
+  "author": "Jackson Hart",
+  "license": "MIT"
+}
