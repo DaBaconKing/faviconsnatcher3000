@@ -71,3 +71,5 @@ app.get("/", async (req, res) => {
     res.status(500).json({ title: null, description: null, favicon: null });
   }
 });
+
+app.listen(PORT, () => console.log(`🔥 Favicon server running on port ${PORT}`));
