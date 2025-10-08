@@ -1,8 +1,10 @@
 import express from "express";
 import fetch from "node-fetch";
+import cors from "cors";
 import * as cheerio from "cheerio";
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 3000;
 const AUTH_HEADER = "x-auth-code";
 const AUTH_SECRET = "MGEFDHGIERHGOIUE-/BACON4LIFE";
